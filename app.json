@@ -2,6 +2,7 @@
   "expo": {
     "name": "Tender_App",
     "slug": "Tender_App",
+    "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af114d05-c7b1-464b-ad9a-a86e639446d0"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/af114d05-c7b1-464b-ad9a-a86e639446d0"
     }
   }
 }
